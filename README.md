@@ -21,4 +21,3 @@ Without Firebase values, the catalog remains viewable but account and cart savin
 - `partRequests/{requestId}` — sourcing enquiries; create-only from client under the provided rules.
 
 Deploy rules with `firebase deploy --only firestore:rules`. Payment processing, admin roles, live chat, WhatsApp routing, upload storage, order tracking and video-call scheduling need trusted server/admin configuration before production use. Do not treat client-side prices or client-submitted payment state as authoritative.
-
